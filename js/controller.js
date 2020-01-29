@@ -2,6 +2,7 @@ var airConsole = null;
 
 var init = function()
 {
+    console.log("Controller Script Loaded");
 
     airconsole = new AirConsole(
         {
@@ -11,8 +12,12 @@ var init = function()
         }
     );
 
-    console.log("Screen Script Loaded");
     
+    function shit(x,y)
+    {   
+       // airconsole.message(AirConsole.SCREEN, {type : "Move", xVel : x, yVel : y});
+        console.log("TOUCH");
+    }
 
 }
 

@@ -1,6 +1,26 @@
-<!-- INCLUDES -->
-<script type="text/javascript" src="//www.airconsole.com/api/airconsole-latest.js"></script>
-<script type="text/javascript" src="js/shared.js"></script>
-<script type="text/javascript" src="js/controller.js"></script>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheet.css">
+</head>
 
-<h1>Controller v0.1</h1> 
+<body> 
+    <!-- INCLUDES -->
+    <script type="text/javascript" src="//www.airconsole.com/api/airconsole-latest.js"></script>
+    <script type="text/javascript" src="js/shared.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+
+    <h1>Controller v0.1</h1> 
+
+        <div id = "button">
+
+            <div>
+                <button id="UP" ontouchstart="controller.shit(1,0)"  ontouchend="controller.shit(0,0)" onmousedown= "controller.shit(1,0)" onmouseup="controller.shit(0,0)">UP</button>     
+            </div>
+
+           <div id= "Second_Row"> 
+                <button id="DOWN", ontou>DOWN</button>
+                <button id="LEFT">LEFT</button>
+                <button id="RIGHT">RIGHT</button>
+            </div>
+           
+        </div>
+</body>

@@ -1,0 +1,19 @@
+body{
+    background-color: lightgray;
+}
+
+ #UP, #DOWN, #LEFT, #RIGHT
+{
+    background-color: grey;
+    height: 49%;
+    width: 30%;
+    outline-width: 2ch;
+    border-radius: 2%;
+    border-color: black; 
+} 
+
+#UP, #Second_Row
+{
+   margin: auto;
+   display: block;
+}
